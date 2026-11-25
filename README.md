@@ -488,14 +488,14 @@ verifier accepts the certificate, and on Zachary's karate club that the lower bo
 
 ## Citation
 
-To cite this software repository, use the following entry or GitHub's "Cite this repository" option.
+To cite this software repository or the Atris algorithm, please cite the following preprint or its publisher's verified article.
 
 ```bibtex
-@software{hussein2026atris,
-  title  = {{Atris}},
+@misc{hussein2026,
   author = {Hussein, Yahia and Aref, Samin},
-  year   = {2026},
-  url    = {https://github.com/Yahiahu/atris}
+  title = {Atris: Large-scale modularity maximization with approximation guarantees},
+  year = {2026},
+  howpublished = {arXiv}
 }
 ```
 
