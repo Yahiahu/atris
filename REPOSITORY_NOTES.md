@@ -1,4 +1,4 @@
-# Repository corrections and open reconciliation
+# Repository corrections and results provenance
 
 Reviewed on November 18, 2026.
 
@@ -30,14 +30,9 @@ Guarantees*, has different upper bounds for three networks in the draft reviewed
 | eu-2005 | 0.960156 | 0.959266 |
 | web-NotreDame | 0.971975 | 0.973098 |
 
-The three manuscript values were not located in the release archive's surviving text records during this review.
-Their provenance needs to be reconciled with the corresponding graph, run, and verification records before
-changing the stored lookup. This review does not establish which set should be used in the final manuscript.
-The other five displayed upper bounds agree.
+The November 15 reruns establish all three manuscript values. The [results notes](docs/RESULTS.md#november-15-certificate-reruns) link the replay bundles and report the full verifier outputs used for rounding. The other five displayed upper bounds agree with the historical archive. The historical table below preserves the November 14 lookup values.
 
-The README and `docs/RESULTS.md` now identify their tables as results reported in the current manuscript and
-disclose the unresolved differences. The historical table below preserves the archive and lookup values.
-Both use `100 * (U - L) / U`, rounded upward to two decimal places, for "within optimal" percentages. The public
+Both tables use `100 * (U - L) / U`, rounded upward to two decimal places, for "within optimal" percentages. The public
 API's existing `gap` and `Score.improvement` use the partition score as denominator and retain their existing
 meaning. These quantities must not be interchanged.
 

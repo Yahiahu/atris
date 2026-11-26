@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "If you use this software, please cite this repository."
+message: "To cite the repository or algorithm, please cite the Atris preprint or its published version."
 type: software
 title: "Atris"
 abstract: >-
@@ -15,3 +15,14 @@ authors:
 repository-code: "https://github.com/Yahiahu/atris"
 url: "https://github.com/Yahiahu/atris"
 license: MIT
+preferred-citation:
+  type: report
+  title: "Atris: Large-scale modularity maximization with approximation guarantees"
+  authors:
+    - family-names: Hussein
+      given-names: Yahia
+    - family-names: Aref
+      given-names: Samin
+  year: 2026
+  institution:
+    name: arXiv

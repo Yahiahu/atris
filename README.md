@@ -98,11 +98,7 @@ The manuscript reports a tighter guarantee on every network than the tested tria
 whose percentages range from 3.58% to 22.61%, using the same feasible partitions. See the [full results](docs/RESULTS.md#approximation-guarantees-on-large-networks)
 for `L`, `U`, and the per-network comparison.
 
-**Record reconciliation remains open.** The upper bounds for web-Stanford, eu-2005, and web-NotreDame differ from
-the v0.1.1 archive and the package's stored lookup. Their manuscript values have not been located in the surviving
-release records. The [repository notes](REPOSITORY_NOTES.md#historical-results-and-the-current-manuscript) preserve
-both sets of values. The original eight large-network certificates are unavailable, so the release cannot replay
-those proofs. These reported results should be read with the [available evidence and limitations](#research-files-and-limitations).
+Table 3 uses the [November 15 rerun certificates](https://github.com/Yahiahu/atris/releases/tag/certificates-2026-11-15) for web-Stanford, eu-2005, and web-NotreDame. The [results notes](docs/RESULTS.md#november-15-certificate-reruns) give the verified values and their upward rounding. The v0.1.1 lookup preserves the earlier runs.
 
 ### Small-network study and the two largest remaining gaps
 

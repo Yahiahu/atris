@@ -59,10 +59,17 @@ values, with `L` rounded downward, `U` rounded upward, and percentages rounded u
 | Hollywood-2009 | 1.107 | 56.376 | 0.754784 | 0.790501 | 4.52 | 22.31 |
 | coPapersDBLP | 0.540 | 15.246 | 0.867665 | 0.912993 | 4.97 | 12.64 |
 
-The upper bounds for the first three networks differ from the v0.1.1 archive and the package's `CERTIFIED` lookup.
-Their manuscript values have not been located in the surviving release records. The [reconciliation notes](../REPOSITORY_NOTES.md#historical-results-and-the-current-manuscript)
-record the differences and preserve the archived values. The original eight certificate files are unavailable,
-so these historical results cannot be independently replayed from this release.
+### November 15 certificate reruns
+
+The independent verifier reported success for each of these three runs. Table 3 rounds its recorded `UB` upward to six decimal places.
+
+| Network | November 14 archive | November 15 verified U | Table 3 U |
+|---|---:|---:|---:|
+| web-Stanford | 0.946186 | 0.9465982614740468 | 0.946599 |
+| eu-2005 | 0.960156 | 0.9592658469272147 | 0.959266 |
+| web-NotreDame | 0.971975 | 0.9730977161232882 | 0.973098 |
+
+Download the [three replay bundles and SHA-256 checksums](https://github.com/Yahiahu/atris/releases/tag/certificates-2026-11-15). Each bundle includes the certificate, graph inputs, verifier source, saved verification report, and replay command. The saved report checks the rerun's Leiden labels. The paper uses a separately evaluated VieClus partition for its lower bound. The package lookup preserves the November 14 archive values.
 
 The large-network VieClus runs used 12 parallel processes, seed zero, and a requested internal time limit of
 3,600 seconds. Actual runtimes were 1.0–2.1 hours. Their partitions are held fixed when comparing upper-bound
